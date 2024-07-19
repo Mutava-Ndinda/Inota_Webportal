@@ -1,0 +1,136 @@
+/* .loan-table {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+} */
+/*  */
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    line-height:325%
+  }
+  th {
+    background-color: #F2F2F2;
+    font-weight: bold;
+    line-height:465%
+  }
+  .loan-repayments{
+    margin-top:10%;
+    margin-left:40%
+  }
+  .loans-table{
+    width: 75%;
+    margin-left:10%
+  }
+ @media  screen and (min-width:300px) and (max-width:400px) {
+    .loans-table{
+        width: 89%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-size: 75%;
+        margin-left:5%
+    }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        line-height:245%
+      }
+      .loan-repayments{
+        margin-top:10%;
+        margin-left:24%;
+        font-size: 145%;
+      }
+ }
+ @media  screen and (min-width:401px) and (max-width:600px) {
+    .loans-table{
+        width: 93%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-size: 85%;
+        margin-left:5%;
+        margin-top:-9%;
+    }
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      line-height:235%
+    }
+    .loan-repayments{
+        margin-top:10%;
+        margin-left:21%;
+        font-size: 155%;
+      }
+      th {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        line-height:235%;
+        font-size: 95%;
+      }
+
+ }
+ @media  screen and (min-width:700px) and (max-width:900px) {
+    .loans-table{
+        width: 93%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-size: 85%;
+        margin-left:5%;
+        margin-top:-3%;
+    }
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      line-height:235%;
+      font-size: 195%;
+    }
+    .loan-repayments{
+        margin-top:10%;
+        margin-left:27%;
+        font-size: 255%;
+      }
+      th {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        line-height:165%;
+        font-size: 195%;
+      }
+ }
+ @media  screen and (min-width:1000px) and (max-width:1300px) {
+    .loans-table{
+        width: 93%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-size: 85%;
+        margin-left:5%;
+        margin-top:-3%;
+    }
+ }
+
+
+ 
